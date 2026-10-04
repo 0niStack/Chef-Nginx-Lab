@@ -2,6 +2,10 @@
 # Configure a simple Nginx web server.
 #
 
+apt_update 'update' do
+  action :update
+end
+
 package 'nginx' do
   action :install
 end
