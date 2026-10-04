@@ -1,0 +1,6 @@
+name 'webserver'
+maintainer 'Dev'
+maintainer_email 'dev@example.com'
+license 'Apache-2.0'
+description 'Small Chef cookbook for configuring an Nginx web server'
+version '1.0.0'
